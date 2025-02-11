@@ -7,6 +7,12 @@ nvidia_pkg=(
   xorg-x11-drv-nvidia-cuda
   libva
   libva-nvidia-driver
+  xorg-x11-drv-nvidia-power
+  vulkan
+  xorg-x11-drv-nvidia-cuda-libs
+  nvidia-vaapi-driver
+  libva-utils 
+  vdpauinfo
 )
 
 ## WARNING: DO NOT EDIT BEYOND THIS LINE IF YOU DON'T KNOW WHAT YOU ARE DOING! ##
