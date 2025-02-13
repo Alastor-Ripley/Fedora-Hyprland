@@ -21,11 +21,11 @@ RESET="$(tput sgr0)"
 
 
 # Check if running as root. If root, script will exit
-if [[ $EUID -eq 0 ]]; then
-    echo "${ERROR}  This script should ${WARNING}NOT${RESET} be executed as root!! Exiting......."
-    printf "\n%.0s" {1..2} 
-    exit 1
-fi
+#if [[ $EUID -eq 0 ]]; then
+#   echo "${ERROR}  This script should ${WARNING}NOT${RESET} be executed as root!! Exiting......."
+#    printf "\n%.0s" {1..2} 
+#    exit 1
+#fi
 
 # Check if --preset argument is provided
 if [[ "$1" == "--preset" ]]; then
